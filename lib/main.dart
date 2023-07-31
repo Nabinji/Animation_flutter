@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation/animated_builder.dart';
 // import 'package:flutter_animation/%20buttom%20curve%20navigation/curve_navigation_bar.dart';
 // import 'package:flutter_animation/animated_text.dart';
 // import 'package:flutter_animation/hide_show_appbar.dart';
@@ -14,12 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home:
-          // CurveBar()
-          // AnimatedText(),
-          // HideShow(),
-          TextSlider(),
-    );
+        debugShowCheckedModeBanner: false, home: MyAnimatedBuilder()
+        // CurveBar()
+        // AnimatedText(),
+        // HideShow(),
+        // TextSlider(),
+        );
   }
 }

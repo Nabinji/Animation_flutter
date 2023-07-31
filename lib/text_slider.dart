@@ -21,6 +21,10 @@ class TextSlider extends StatelessWidget {
             color: Colors.blue,
             height: 50,
             child: Marquee(
+              blankSpace: 10,
+              // text speed
+              // if we set velovit negative slide opposite direction.
+              velocity: -100,
               text: "My Name si Pet and Everyone Loves Me.",
               style: const TextStyle(
                   fontSize: 35,
