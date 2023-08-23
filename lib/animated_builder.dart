@@ -13,7 +13,7 @@ class _MyAnimatedBuilderState extends State<MyAnimatedBuilder>
   late final AnimationController _controller = AnimationController(
     duration: const Duration(seconds: 10),
     vsync: this,
-  )..repeat(); //  if we need to repeat again and again the we do ..repeat
+  )..repeat(); //  if we need to repeat again and again then we do ..repeat
 
   void despose() {
     _controller.dispose();
