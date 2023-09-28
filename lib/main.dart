@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/animated_container.dart';
+import 'package:flutter_animation/Animated%20drawer/drawer_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyAnimatedContainer(),
+      home: DrawerAnimation(),
     );
   }
 }

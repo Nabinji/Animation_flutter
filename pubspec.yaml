@@ -38,6 +38,7 @@ dependencies:
   animated_text_kit: ^4.2.2
   curved_navigation_bar: ^1.0.3
   marquee: ^2.2.3
+  flutter_zoom_drawer: ^3.1.1
 
 dev_dependencies:
   flutter_test:
